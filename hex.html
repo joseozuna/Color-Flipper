@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Flipper || Hex</title>
+
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+
+    <!-- If you want to include your custom styles, you can still link your styles.css -->
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+  </head>
+
+  <body class="bg-gray-100">
+    <nav class="bg-white shadow-md">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-16">
+          <div class="flex-shrink-0 flex items-center">
+            <h4 class="text-xl font-bold">color flipper</h4>
+          </div>
+          <div class="flex">
+            <ul class="flex space-x-4 items-center">
+              <li><a href="index.html" class="text-gray-700 hover:text-gray-900">simple</a></li>
+              <li><a href="hex.html" class="text-gray-700 hover:text-gray-900">hex</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="flex items-center justify-center h-screen">
+      <div class="text-center">
+        <h2 class="text-2xl">background color : <span class="color text-blue-500">#f1f5f8</span></h2>
+        <button class="btn btn-hero mt-4 bg-blue-500 text-white px-4 py-2 rounded-lg" id="btn">click me</button>
+      </div>
+    </main>
+    <!-- javascript -->
+    <script src="hex.js"></script>
+  </body>
+</html>
