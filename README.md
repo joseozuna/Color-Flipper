@@ -15,7 +15,8 @@ El proyecto incluye los siguientes archivos:
 - `app.js`: Contiene el código JavaScript que maneja la lógica de cambio de color.
 
 ### index.html
-
+Idea original del curso de Freecodecamp 
+https://www.youtube.com/watch?v=3PHXvlpOkf4&t=2649s
 ```html
 <!DOCTYPE html>
 <html lang="en">
